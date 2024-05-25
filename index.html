@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="svgs/close.svg" alt="">
+            </div>
+            <div class="upper radius bground">
+                <img width="120px" class="invert" src="svgs/logo.svg" alt="logo">
+                <ul>
+                    <li> <img class="invert" src="svgs/home.svg" alt=""><a href="home">Home</a></li>
+                    <li> <img class="invert" src="svgs/search.svg" alt=""><a href="search">Search</a></li>
+                </ul>
+            </div>
+            <div class="lower radius color bground">
+                <li><img width="34px" class="invert" src="svgs/library.svg" alt=""><a href="">Library</a></li>
+                <div class="songslist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="links footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right radius">
+            <nav class="navbar bground">
+                <div class="flex twoobjects">
+                    <img class="invert hamburger" src="svgs/hamburger.svg" alt="">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <div class="buttons">
+                    <button>Sign Up</button>
+                    <button>Login in</button>
+                </div>
+            </nav>
+
+            <div class="main">
+                <h2>Spotify Playlists</h2>
+                <div class="cardscontainer">
+                   
+                </div>
+                <div class="playbar">
+                    <div class="abovedurationline">
+                        <div class="songinfo"></div>
+                        <div class="playbuttons">
+                            <img id="previous" width="35px" height="27px" src="svgs/left.svg" alt="">
+                            <img id="play" width="35px" height="27px" src="svgs/play.svg" alt="">
+                            <img id="forward" width="35px" height="27px" src="svgs/right.svg" alt="">
+                        </div>
+                        <div class="voltime">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img src="svgs/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="durationline">
+                        <div class="Circle"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
